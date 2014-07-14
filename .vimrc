@@ -1,0 +1,5 @@
+colorscheme vividchalk
+
+set number
+
+
