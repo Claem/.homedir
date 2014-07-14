@@ -1,5 +1,3 @@
-colorscheme vividchalk
-
 set number
-
+colorscheme vibrantink
 
