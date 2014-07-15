@@ -1,0 +1,3 @@
+[submodule ".vim/puppet-vim"]
+	path = .vim/puppet-vim
+	url = https://github.com/ajf/puppet-vim.git
