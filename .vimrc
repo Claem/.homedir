@@ -6,5 +6,7 @@ set expandtab
 set smarttab
 set autoindent
 set hidden
+set history=100
+set wildmode=list:longest
 
 runtime macros/matchit.vim
