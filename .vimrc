@@ -5,5 +5,6 @@ filetype indent plugin on
 set expandtab
 set smarttab
 set autoindent
+set hidden
 
 runtime macros/matchit.vim
