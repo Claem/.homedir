@@ -1,0 +1,3 @@
+#This directory works with .vimrc file; swap files will be saved here 
+instead of randomly throughout system.  File created here 'cuz git 
+doesn't like empty directories. 
