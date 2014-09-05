@@ -16,4 +16,7 @@ set smartcase
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
+execute pathogen#infect()
+syntax on
+
 runtime macros/matchit.vim
