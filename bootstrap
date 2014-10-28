@@ -1,0 +1,25 @@
+https://github.com/Claem/personal-puppet.git
+
+https://github.com/Claem/home-directory.git
+
+#!/usr/bin/bash
+
+apt-get install puppet git -y
+#install hom-dir repo in right place
+
+git clone https://github.com/Claem/home-directory.git temp
+#install home directory defaults
+#installs to new folder.  HOW to make entire directory overwrite existing /home in code???
+
+mkdir =/etc/puppet
+git clone https://github.com/Claem/personal-puppet.git
+#make a directory and clone puppet repo into it
+
+#dir =/etc/puppet/personal-puppet/manifests
+#puppet apply site.pp
+#Run puppet
+
+Instructions for running
+1)vim bootstrap
+2)sudo bash ./bootstrap
+3)STEP TO MOVE FROM /HOMEDIR/TEMP TO /HOMDIR
