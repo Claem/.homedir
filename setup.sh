@@ -16,6 +16,7 @@ for f in $OLDPWD/*; do
     if [[ "$O" == ".gitignore" ]]; then continue; fi
     if [[ "$O" == ".gitmodules" ]]; then continue; fi
     if [[ "$O" == "README.md" ]]; then continue; fi
+    if [[ "$O" == "setup.sh" ]]; then continue; fi
 
     rm "$O" >/dev/null 2>&1
     ln -s "$f" "$O" >/dev/null 2>&1
