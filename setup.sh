@@ -24,6 +24,7 @@ done
 #ln -s .vim/.vimrc .vimrc
 shopt -u dotglob
 cd - >/dev/null 2>&1
+exit 0
 
 #RGooler has separate .vim folder, preferences for him, unnecessary for me
 #git clone --recursive https://github.com/rgooler/.vim ${HOMEDIR}/.vim
