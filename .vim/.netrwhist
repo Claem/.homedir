@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/whiterose/personal-puppet/manifests'
 let g:netrw_dirhist_2='/home/whiterose/personal-puppet/modules/common/manifests/defines'
+let g:netrw_dirhist_3='/home/whiterose/.homedir'
+let g:netrw_dirhist_4='/home/whiterose/personal-puppet'
+let g:netrw_dirhist_5='/home/whiterose/personal-puppet/manifests'
+let g:netrw_dirhist_6='/home/whiterose/personal-puppet/modules'

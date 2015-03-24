@@ -18,5 +18,6 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 
 execute pathogen#infect()
 syntax on
+filetype plugin indent on
 
 runtime macros/matchit.vim
